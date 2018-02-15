@@ -36,6 +36,7 @@ proto-google-cloud-pubsub-v1==0.15.4
 protobuf==3.3.0
 pyasn1==0.4.2
 pyasn1-modules==0.2.1
+PyLyrics==1.1.0
 pytz==2018.3
 PyYAML==3.12
 requests==2.18.4
