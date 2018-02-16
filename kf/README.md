@@ -27,5 +27,5 @@ to install the requirements.
 To run this script with Dataflow, you will need to run this command in your activated virtual environment:
 
 ```
-python pipeline.py --requirements_file requirements.txt --project <PROJECT-NAME> --job_name <JOB-NAME> --staging_location gs://pycaribbean/staging_location --temp_location gs://pycaribbean/temp_location --runner DataflowRunner --save_main_session True
+python pipeline.py --requirements_file requirements.txt --extra_package billboard.py-4.2.0.tar.gz --project <PROJECT-NAME> --job_name <JOB-NAME> --staging_location gs://pycaribbean/staging_location --temp_location gs://pycaribbean/temp_location --runner DataflowRunner --save_main_session True
 ```
